@@ -26,7 +26,8 @@ cp .env.example .env
 php artisan key:generate
 配置数据库信息
 
-创建数据库，将数据库信息填写至.env
+创建数据库，将数据库信息填写至.env(必须先创建数据库,登录mysql,创建homestead用户和homestead database,否则后面会出错)
+
 
 运行数据迁移和数据填充
 
